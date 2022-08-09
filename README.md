@@ -376,3 +376,11 @@ Notice that we can define the exception `as e`. This assigns the exception objec
 ```
 
 You can see how we handle exceptions in your interpreter in `repl.py`. Modify this code to handle ill-defined arithmetic errors, as well as type errors. Go ahead and try it out!
+
+
+
+Congratulations! You've finished all problems of the lab. Feel free to run doctest to verify your answer again.
+
+```shell
+python3 -m doctest expr.py
+```
